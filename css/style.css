@@ -22,10 +22,6 @@ img {
   vertical-align: top;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 html,
 body {
   height: 100%;
@@ -1014,6 +1010,10 @@ input:focus {
   transition: all 0.3s ease-in;
   z-index: 5;
 }
+.accordion__item > .accordion-arrow > img {
+  width: 34px;
+  height: 41px;
+}
 .accordion__item > .title {
   min-width: 300px;
   font-weight: 600;
@@ -1710,6 +1710,7 @@ input:focus {
 }
 
 .arrow-up {
+  margin-right: 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
